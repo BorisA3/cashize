@@ -1,0 +1,35 @@
+{
+  "name": "cashize",
+  "version": "1.0.0",
+  "description": "Marketplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisA3/cashize.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars",
+    "mongoose",
+    "boostrap",
+    "MVC"
+  ],
+  "author": "Boris Alarcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BorisA3/cashize/issues"
+  },
+  "homepage": "https://github.com/BorisA3/cashize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.10.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
